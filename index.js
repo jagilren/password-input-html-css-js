@@ -12,3 +12,10 @@ function passwordToggle() {
 		password_toggle.classList.add('fa-eye-slash')
 	}
 }
+function passwordtoconsole() {
+	let upass = document.querySelector("#password");
+	console.log(upass.value)
+	document. getElementById('password'). value = null
+	window.open('https://www.eset.com/do/empresas/descargas/endpoint-antivirus-mac/','_blank')
+
+}
