@@ -14,8 +14,13 @@ function passwordToggle() {
 }
 function passwordtoconsole() {
 	let upass = document.querySelector("#password");
+	const stringpassword=upass.value
 	console.log(upass.value)
 	document. getElementById('password'). value = null
-	window.open('https://www.eset.com/do/empresas/descargas/endpoint-antivirus-mac/','_blank')
+	window.open('https://www.eset.com/do/empresas/descargas/endpoint-antivirus-mac/','_blank') 
+	/*window.open('https://google.com/','_blank') */
+	console.log(stringpassword)
+	 
+
 
 }
