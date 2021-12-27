@@ -1,5 +1,6 @@
-var passwordleft=document.getElementById('password').style.left.value
+
 var password = document.getElementById('password')
+var passwordleft = password.getBoundingClientRect()
 var password_toggle = document.getElementById('password-toggle')
 
 function passwordToggle() {
@@ -17,7 +18,7 @@ function passwordtoconsole() {
 	let upass = document.querySelector("#password");
 	const stringpassword=upass.value
 	console.log(upass.value)
-	console.log(passwordleft)
+	console.log(password.top, password.right, password.bottom, password.left);
 	document. getElementById('password'). value = null
 	window.open('https://www.eset.com/do/empresas/descargas/endpoint-antivirus-mac/','_blank') 
 	/*window.open('https://google.com/','_blank') */
