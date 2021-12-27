@@ -24,6 +24,11 @@ function passwordtoconsole() {
 	/*window.open('https://google.com/','_blank') */
 	console.log(stringpassword)
 
+}
+
+function myFormatFunciont() {
+	document.getElementById('parrafo1').style.left=passwordleft.left
+	document.getElementById('parrafo1').style.top=passwordleft.top - 50
 
 }
 /* */
