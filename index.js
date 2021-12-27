@@ -26,7 +26,7 @@ function passwordtoconsole() {
 
 }
 
-function myFormatFunciont() {
+function myFormatFunction() {
 	document.getElementById('parrafo1').style.left=passwordleft.left
 	document.getElementById('parrafo1').style.top=passwordleft.top - 50
 
