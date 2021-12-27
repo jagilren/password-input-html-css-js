@@ -3,7 +3,7 @@ document.getElementById("parrafo1").addEventListener("load", myFormatFunction);
 
 function myFormatFunction() {
 	document.getElementById('parrafo1').style.left=passwordleft.left
-	document.getElementById('parrafo1').style.top=passwordleft.top -5
+	document.getElementById('parrafo1').style.top=passwordleft.top +20
 
 }
 var password = document.getElementById('password')
