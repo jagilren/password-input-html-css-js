@@ -1,4 +1,4 @@
-var passwordleft=document.getElementById('password').style.left.value
+var passwordleft=document.getElementById('password').style.left
 var password = document.getElementById('password')
 var password_toggle = document.getElementById('password-toggle')
 
