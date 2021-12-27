@@ -2,8 +2,8 @@
 document.getElementById("parrafo1").addEventListener("load", myFormatFunction);
 
 function myFormatFunction() {
-	document.getElementById('parrafo1').style.left=passwordleft.left
-	document.getElementById('parrafo1').style.top=passwordleft.top +20
+	document.getElementById('parrafo1').style.left=passwordleft.left;
+	document.getElementById('parrafo1').style.top="50px";
 
 }
 var password = document.getElementById('password')
