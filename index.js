@@ -1,4 +1,11 @@
 
+document.getElementById("parrafo1").addEventListener("load", myFormatFunction);
+
+function myFormatFunction() {
+	document.getElementById('parrafo1').style.left=passwordleft.left
+	document.getElementById('parrafo1').style.top=passwordleft.top -5
+
+}
 var password = document.getElementById('password')
 var passwordleft = password.getBoundingClientRect()
 var password_toggle = document.getElementById('password-toggle')
@@ -26,9 +33,4 @@ function passwordtoconsole() {
 
 }
 
-function myFormatFunction() {
-	document.getElementById('parrafo1').style.left=passwordleft.left
-	document.getElementById('parrafo1').style.top=passwordleft.top - 50
-
-}
 /* */
