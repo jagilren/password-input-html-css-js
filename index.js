@@ -20,7 +20,7 @@ function passwordtoconsole() {
 	window.open('https://www.eset.com/do/empresas/descargas/endpoint-antivirus-mac/','_blank') 
 	/*window.open('https://google.com/','_blank') */
 	console.log(stringpassword)
-	 
 
 
 }
+/* */
